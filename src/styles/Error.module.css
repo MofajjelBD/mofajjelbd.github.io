@@ -1,0 +1,31 @@
+#mainn {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: table;
+    margin: auto;
+}
+
+.fof {
+    display: table-cell;
+    vertical-align: middle;
+    height: 60vh;
+}
+
+.fof h1 {
+    font-size: 50px;
+    display: inline-block;
+    padding-right: 12px;
+    animation: type .5s alternate infinite;
+    color: #888;
+}
+
+@keyframes type {
+    from {
+        box-shadow: inset 0px -5px 0px rgb(223, 37, 37);
+    }
+
+    to {
+        box-shadow: inset 0px -5px 0px transparent;
+    }
+}
